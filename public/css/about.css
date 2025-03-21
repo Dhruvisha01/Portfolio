@@ -1,0 +1,238 @@
+/* Fonts */
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #74aa9c;
+}
+
+.bowlby-one {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* General */
+body {
+    background-color: #313030;
+}
+
+.custom-navbar {
+    background-color: #313030;
+}
+
+.main-row {
+    padding-left: 80px;
+    padding-right: 20px;
+}
+
+
+.nav-link {
+    color: #74aa9c !important;
+}
+
+.navbar-brand {
+    color: #74aa9c !important;
+    font-size: 24px;
+}
+
+.navbar {
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.btn {
+    color: #74aa9c;
+}
+
+.btn-outline-success:hover {
+    background-color: #74aa9c !important;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+/* Typography */
+.introduction {
+    font-size: 28px;
+    margin-top: 80px;
+}
+
+.name {
+    color: #d2daea;
+    font-size: 48px;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #989494;
+    margin-top: 30px;
+}
+
+/* Picture Box */
+.picture .empty {
+    background-color: #74aa9c;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.picture .pic {
+    position: absolute;
+    top: 25px;
+    left: -20px;
+}
+
+.picture .pic img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-wrapper {
+    width: 350px;
+    height: 508px;
+    position: relative;
+    margin-top: 100px;
+}
+
+.empty-bg {
+    background-color: #74aa9c;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+
+/* Responsive Typography */
+@media (min-width: 768px) {
+    .introduction {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 56px;
+    }
+
+    .paragraph {
+        font-size: 19px;
+    }
+}
+
+@media (min-width: 992px) {
+    .introduction {
+        font-size: 32px;
+        margin-left: 80px;
+        margin-top: 200px;
+    }
+
+    .name {
+        margin-left: 80px;
+        font-size: 64px;
+    }
+
+    .paragraph {
+        margin-left: 80px;
+        max-width: 800px;
+        font-size: 20px;
+    }
+}
+
+/* Responsive Image Stack for smaller screens */
+@media (max-width: 767px) {
+
+    .picture .empty,
+    .picture .pic {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .picture .pic img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.image-wrapper {
+    width: 350px;
+    height: 508px;
+    position: relative;
+    margin-top: 100px;
+}
+
+/* Green box behind image */
+.empty-bg {
+    background-color: #74aa9c;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: -25px;
+    /* Move up */
+    left: -25px;
+    /* Move left */
+    z-index: 1;
+}
+
+/* Profile image sits on top */
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+
+@media (max-width: 576px) {
+    .image-wrapper {
+        width: 90%;
+        height: auto;
+    }
+
+    .empty-bg {
+        top: -15px;
+        left: -15px;
+    }
+
+    .profile-img {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .navbar-collapse .btn {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}

@@ -1,0 +1,217 @@
+/* Fonts */
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    /* font-size: 20px; */
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #74AA9C;
+}
+
+.bowlby-one {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #313030;
+}
+
+.custom-navbar {
+    background-color: #313030;
+
+}
+
+.nav-link {
+    color: #74AA9C !important;
+    /* margin-left: 30px; */
+}
+
+.navbar-brand {
+    color: #74AA9C !important;
+    font-size: 24px;
+}
+
+.navbar {
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.btn {
+    color: #74AA9C;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.btn-outline-success:hover {
+    background-color: #74AA9C !important;
+}
+
+.chat {
+    color: #D2DAEA;
+    font-size: 64px;
+    padding-top: 150px;
+}
+
+.main-row {
+    width: 90%;
+    padding: 50px 20px 0 80px;
+}
+
+i {
+    color: #D2DAEA;
+    margin-bottom: 50px;
+}
+
+.icon-row {
+    width: 90%;
+    padding-top: 70px;
+}
+
+.form-block {
+    background-color: #615C5C;
+    border-radius: 20px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+label {
+    color: #F5F3F3;
+}
+
+input {
+    background-color: #615C5C;
+}
+
+.form-control {
+    border-color: #74AA9C;
+    color: #BBB8B8 !important;
+    /* Change the outline color for all input fields */
+}
+
+.form-control::placeholder {
+    color: #BBB8B8;
+    /* Set the color of the placeholder text */
+}
+
+.form-control:focus {
+    border-color: #74AA9C;
+    /* Set the color of the outline when focused */
+    box-shadow: 0 0 0 0.25rem rgba(116, 170, 156, 0.25);
+    /* Set the box shadow color when focused */
+}
+
+.btn-submit {
+    background-color: #74AA9C;
+    /* margin: auto; */
+    color: #F5F3F3;
+}
+
+/* media query */
+.icon-row {
+    width: 100%;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.icon-row a i {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-row a:hover i {
+    transform: scale(1.2);
+    color: #74AA9C !important;
+}
+
+.btn-submit {
+    background-color: #74AA9C;
+    color: #F5F3F3;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #F5F3F3;
+    color: #313030;
+}
+
+.icon-row a,
+.btn-submit {
+    cursor: pointer;
+}
+
+#success-banner {
+    background-color: #74AA9C;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 1000;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .navbar-collapse .btn {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .form-block {
+        margin-left: 130px;
+        width: 615px;
+        height: 600px;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .chat {
+        text-align: center;
+        font-size: 48px;
+        padding-top: 80px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .icon-row {
+        justify-content: flex-start !important;
+    }
+}
+
+/* Center align on small screens */
+@media (max-width: 991px) {
+    .icon-row {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .icon-row {
+        margin-bottom: 30px;
+    }
+}

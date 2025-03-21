@@ -1,0 +1,116 @@
+/* Fonts */
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    /* font-size: 20px; */
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #74AA9C;
+}
+
+.bowlby-one {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #313030;
+}
+
+.custom-navbar {
+    background-color: #313030;
+
+}
+
+.nav-link {
+    color: #74AA9C !important;
+    /* margin-left: 30px; */
+}
+
+.navbar-brand {
+    color: #74AA9C !important;
+    font-size: 24px;
+}
+
+.navbar {
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.btn {
+    color: #74AA9C;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.btn-outline-success:hover {
+    background-color: #74AA9C !important;
+}
+
+.introduction {
+    font-size: 32px;
+    margin-left: 80px !important;
+    margin-top: 200px;
+}
+
+.name {
+    color: #D2DAEA;
+    margin-left: 80px !important;
+    font-size: 64px;
+}
+
+.header {
+    color: #6A757E;
+    margin-left: 80px !important;
+    font-size: 48px;
+}
+
+.paragraph {
+    font-size: 24px;
+    color: #989494;
+    margin-left: 80px;
+    max-width: 800px;
+    margin-top: 70px;
+}
+
+.edTech {
+    color: #74AA9C;
+}
+
+.projects {
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+/* media query */
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .navbar-collapse .btn {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    /* .first-nav-item {
+        margin-left: 1000px;
+    } */
+}

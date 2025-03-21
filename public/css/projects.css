@@ -1,0 +1,454 @@
+/* General styles */
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+    /* font-size: 20px; */
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #74AA9C;
+}
+
+.bowlby-one {
+    font-family: "Bowlby One SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #313030;
+    font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+    background-color: #313030;
+
+}
+
+.nav-link {
+    color: #74AA9C !important;
+    /* margin-left: 30px; */
+}
+
+.navbar-brand {
+    color: #74AA9C !important;
+    font-size: 24px;
+}
+
+.navbar {
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+/* Intro */
+.intro {
+    color: #74AA9C;
+    font-size: 40px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+/* Project Section */
+.parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.imageOdd,
+.imageEven {
+    flex: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 700px;
+    border-radius: 8px;
+}
+
+.featuredProject,
+.titleProject,
+.descriptionOdd,
+.descriptionEven {
+    color: white;
+}
+
+.featuredProject {
+    color: #74AA9C;
+    font-size: 18px;
+}
+
+.descriptionOdd,
+.descriptionEven {
+    background-color: #5B606E;
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    /* height: 300px */
+}
+
+.descriptionOdd,
+.descriptionEven {
+    overflow-wrap: break-word;
+}
+
+.techStackOdd,
+.techStackEven {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    /* ✅ THIS enables wrapping */
+    justify-content: flex-start;
+}
+
+
+.capsule {
+    padding: 10px 15px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+}
+
+.links i {
+    color: white;
+    font-size: 24px;
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #313030;
+    }
+
+    .custom-navbar {
+        background-color: #313030;
+
+    }
+
+    .nav-link {
+        color: #74AA9C !important;
+        /* margin-left: 30px; */
+    }
+
+    .navbar-brand {
+        color: #74AA9C !important;
+        font-size: 24px;
+    }
+
+    .navbar {
+        padding-left: 70px;
+        padding-right: 20px;
+    }
+
+    .btn {
+        color: #74AA9C;
+    }
+
+    .active {
+        text-decoration: underline;
+    }
+
+    .btn-outline-success:hover {
+        background-color: #74AA9C !important;
+    }
+
+    .intro {
+        color: #74AA9C;
+        font-size: 40px;
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-bottom: 70px;
+    }
+
+    .project1 {
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        top: 220px;
+        left: 80px
+    }
+
+    .project2 {
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        top: 800px;
+        right: 80px
+    }
+
+    .project3 {
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        top: 1400px;
+        right: 80px
+    }
+
+    .imageOdd {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .imageEven {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    img {
+        width: 748px;
+        height: 499px;
+    }
+
+    .featuredOdd {
+        position: absolute;
+        top: 200px;
+        right: 0%;
+    }
+
+    .featuredEven {
+        position: absolute;
+        top: 200px;
+        left: 0%;
+    }
+
+    .featuredProject {
+        color: #74AA9C;
+        font-size: 20px;
+    }
+
+    .project2 .featuredEven {
+        position: absolute;
+        top: 250px;
+        left: 0%;
+    }
+
+    .project3 .featuredOdd {
+        position: absolute;
+        top: 210px;
+        right: 0%;
+    }
+
+    .titleOdd {
+        position: absolute;
+        top: 230px;
+        right: 0;
+    }
+
+    .titleEven {
+        position: absolute;
+        top: 230px;
+        left: 0;
+    }
+
+    .project2 .titleEven {
+        position: absolute;
+        top: 280px;
+        left: 0;
+    }
+
+    .project3 .titleOdd {
+        position: absolute;
+        top: 240px;
+        right: 0;
+    }
+
+    .titleProject {
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .descriptionOdd {
+        width: 905px;
+        /* height: 150px; */
+        position: absolute;
+        top: 270px;
+        right: 0px;
+        background-color: #5B606E;
+        text-align: right;
+    }
+
+    .descriptionEven {
+        width: 905px;
+        /* height: 150px; */
+        position: absolute;
+        top: 350px;
+        left: 0px;
+        background-color: #5B606E;
+    }
+
+
+    .project2 .descriptionEven {
+        width: 905px;
+        /* height: 150px; */
+        position: absolute;
+        top: 320px;
+        left: 0px;
+        background-color: #5B606E;
+    }
+
+    .project3 .descriptionOdd {
+        width: 905px;
+        /* height: 150px; */
+        position: absolute;
+        top: 280px;
+        right: 0px;
+        background-color: #5B606E;
+        text-align: right;
+    }
+
+    .techStackOdd {
+        position: absolute;
+        top: 445px;
+        right: 0px;
+        display: flex;
+    }
+
+    .techStackEven {
+        position: absolute;
+        top: 445px;
+        left: 0px;
+        display: flex;
+    }
+
+    .project2 .techStackEven {
+        position: absolute;
+        top: 475px;
+        left: 0px;
+        display: flex;
+    }
+
+    .project3 .techStackOdd {
+        position: absolute;
+        top: 435px;
+        right: 0px;
+        display: flex;
+    }
+
+    .capsule {
+        width: 104px;
+        /* Adjust width as needed */
+        height: 36px;
+        /* Adjust height as needed */
+        background-color: #D9D9D9;
+        /* Background color */
+        border-radius: 25px;
+        /* Half of the height to make it a capsule shape */
+        margin-right: 10px;
+        /* Adjust spacing between capsules */
+        display: flex;
+        justify-content: center;
+        /* Center text horizontally */
+        align-items: center;
+        /* Center text vertically */
+    }
+
+    .capsule p {
+        margin: 0;
+        color: #000;
+    }
+
+    .links {
+        margin-top: 20px;
+        position: absolute;
+        top: 475px;
+        right: 0px;
+    }
+
+    .linksEven {
+        margin-top: 20px;
+        position: absolute;
+        top: 475px;
+        left: 0px;
+    }
+
+    .project2 .linksEven {
+        margin-top: 20px;
+        position: absolute;
+        top: 500px;
+        left: 0px;
+    }
+
+    .project3 .links {
+        margin-top: 20px;
+        position: absolute;
+        top: 455px;
+        right: 0px;
+    }
+
+    .links i {
+        margin-right: 10px;
+        color: white;
+    }
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .parent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imageOdd,
+    .imageEven {
+        order: -1;
+        text-align: center;
+    }
+
+    .featuredProject,
+    .titleProject,
+    .descriptionOdd,
+    .descriptionEven,
+    .techStackOdd,
+    .techStackEven,
+    .links {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .techStackOdd,
+    .techStackEven {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .capsule {
+        padding: 8px 12px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav .nav-link {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .navbar-collapse .btn {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
