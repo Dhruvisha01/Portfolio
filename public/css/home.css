@@ -114,3 +114,38 @@ body {
         margin-left: 1000px;
     } */
 }
+
+@media (max-width: 768px) {
+
+    .introduction,
+    .name,
+    .header,
+    .paragraph,
+    .projects {
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        text-align: left;
+    }
+
+    .name {
+        font-size: 36px;
+    }
+
+    .header {
+        font-size: 28px;
+    }
+
+    .introduction {
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .projects {
+        font-size: 20px;
+    }
+}
