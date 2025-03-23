@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Dhruvisha01/Portfolio/issues"
   },
-  "homepage": "https://github.com/Dhruvisha01/Portfolio#readme"
+  "homepage": "https://github.com/Dhruvisha01/Portfolio#readme",
+  "dependencies": {
+    "nodemailer": "^6.10.0"
+  }
 }
