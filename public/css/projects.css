@@ -121,6 +121,22 @@ img {
     background-color: #D9D9D9;
     border-radius: 20px;
     text-align: center;
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+
+.capsule:hover {
+    transform: scale(1.1);
+}
+
+.links a i,
+.linksEven a i {
+    transition: transform 0.3s ease;
+}
+
+.links a i:hover,
+.linksEven a i:hover {
+    transform: scale(1.2);
 }
 
 .links {
